@@ -185,7 +185,7 @@ nav ul li.btn a:hover{
   flex-wrap: wrap;
 }
 .about-section{
-  background: url(images/left.jpg) no-repeat left;
+  background: url(images/Left.jpg) no-repeat left;
   background-size: 55%;
   overflow: hidden;
   padding: 50px 0;
@@ -209,7 +209,7 @@ nav ul li.btn a:hover{
   text-align: justify;
 }
 .about-section-left{
-background: url(images/right.jpg) no-repeat right;
+background: url(images/Right.jpg) no-repeat right;
 background-size: 55%;
 overflow: hidden;
 padding: 50px 0;
