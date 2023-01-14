@@ -1,14 +1,8 @@
-var sidemenu = document.getElementById("sidemenu");
+let menu = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
 
-function openmenu(){
-  sidemenu.style.right = "0";
+
+menu.onclick = () => {
+  menu.classList.toggle('bx');
+  navbar.classList.toggle('open');
 }
-function closemenu(){
-  sidemenu.style.right = "-200px";
-}
-
-const nav = document.querySelector("nav");
-
-window.addEventListener ("scroll", function() {
-  nav.classList.toggle ("sticky", window.scrollY > 0);
-}) ;
